@@ -608,7 +608,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -801,6 +801,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1052206190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8313592403667635107, guid: ed512ae9f216bfa46a52bf95afda8094,
+    type: 3}
+  m_PrefabInstance: {fileID: 1555643681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116310405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,12 +1526,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2344377741116969209, guid: ed512ae9f216bfa46a52bf95afda8094,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.4000244
+      objectReference: {fileID: 0}
+    - target: {fileID: 2344377741116969209, guid: ed512ae9f216bfa46a52bf95afda8094,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345081021769826232, guid: ed512ae9f216bfa46a52bf95afda8094,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0021362305
+      objectReference: {fileID: 0}
+    - target: {fileID: 6520289762511316047, guid: ed512ae9f216bfa46a52bf95afda8094,
+        type: 3}
+      propertyPath: fireballSourceTransform
+      value: 
+      objectReference: {fileID: 1052206190}
     - target: {fileID: 6950443918150123370, guid: ed512ae9f216bfa46a52bf95afda8094,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4456398830119225578, guid: ed512ae9f216bfa46a52bf95afda8094, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ed512ae9f216bfa46a52bf95afda8094, type: 3}
 --- !u!114 &1593846828 stripped
 MonoBehaviour:
