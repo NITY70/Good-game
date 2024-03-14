@@ -1541,6 +1541,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.0021362305
       objectReference: {fileID: 0}
+    - target: {fileID: 4468557393918804821, guid: ed512ae9f216bfa46a52bf95afda8094,
+        type: 3}
+      propertyPath: force
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468557393918804821, guid: ed512ae9f216bfa46a52bf95afda8094,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6520289762511316047, guid: ed512ae9f216bfa46a52bf95afda8094,
         type: 3}
       propertyPath: fireballSourceTransform
