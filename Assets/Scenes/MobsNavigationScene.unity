@@ -648,6 +648,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 100
+  playerProgress: {fileID: 1555643682}
+  explosionPrefab: {fileID: -5035111191330069659, guid: 96ec33a668e6a5446861c14e76e9ac84,
+    type: 3}
 --- !u!136 &645193879
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1564,6 +1567,18 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4456398830119225578, guid: ed512ae9f216bfa46a52bf95afda8094, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ed512ae9f216bfa46a52bf95afda8094, type: 3}
+--- !u!114 &1555643682 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6849146242418196264, guid: ed512ae9f216bfa46a52bf95afda8094,
+    type: 3}
+  m_PrefabInstance: {fileID: 1555643681}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaff54416fc0d4643907d7176a41edd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1592682089
 GameObject:
   m_ObjectHideFlags: 0
