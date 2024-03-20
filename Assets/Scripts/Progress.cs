@@ -5,6 +5,8 @@ using TMPro;
 
 public class Progress : MonoBehaviour
 {
+    public List<PlayerProgressLevel> levels;
+
     public RectTransform experienceValueRectTransform;
     public TextMeshProUGUI levelValueTMP;
 
